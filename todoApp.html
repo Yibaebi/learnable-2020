@@ -1,0 +1,367 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+         .inputBoxes {
+            text-align: center;
+        }
+
+
+
+        input:focus,
+        input:active {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: crimson;
+            font-weight: bold;
+            border-radius: 30px;
+            background-color: bisque;
+        }
+
+        input[id="userInput"] {
+            display: inline-block;
+            margin: 0 auto;
+            border: 3px solid black;
+            width: 60%;
+            height: 30px;
+            text-align: center;
+            background-color: bisque;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: crimson;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        input[id="taskTime"] {
+            display: inline-block;
+            margin: 0 auto;
+            border: 3px solid black;
+            height: 30px;
+            text-align: center;
+            background-color: bisque;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: crimson;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        input[id="dateAndTime"] {
+            display: inline-block;
+            margin: 0 auto;
+            border: 3px solid black;
+            height: 30px;
+            text-align: center;
+            background-color: bisque;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: crimson;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        input[type="submit"] {
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #e74c3c;
+            border-radius: 0.6em;
+            color: #e74c3c;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: 1;
+            margin: 10px;
+            padding: 1em 2.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        button[type="button"]:hover,
+        button[type="button"]:focus {
+            color: green;
+            outline: 0;
+            border-color: green;
+        }
+
+        ::-webkit-input-placeholder {
+            text-align: center;
+            opacity: 0.5;
+            font-family: Arial, Helvetica, sans-serif;
+            color: crimson;
+            font-weight: bold;
+        }
+
+        
+        :-moz-placeholder {
+            text-align: center;
+        }
+
+        ::-moz-placeholder {
+            text-align: center;
+        }
+
+        :-ms-input-placeholder {
+            text-align: center;
+        }
+
+        /* .container {
+            margin-top: 50px;
+            text-align: center;
+        } */
+
+        input.inputStyle {
+            width: 500px;
+            height: 30px;
+            padding-left: 10px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 3px outset black;
+            background-color: bisque;
+            font-weight: bold;
+            color: crimson;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+
+        button {
+            border: none;
+            background: none;
+            font-size: large;
+        }
+
+
+        #main-header {
+            background-color: #28a745;
+            margin-bottom: 1rem !important;
+            width: auto;
+            height: 80px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #fff;
+            position: relative;
+            text-align: center;
+        }
+
+        #header-title {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 50%;
+            height: 10%;
+            margin: auto;
+            font-size: 20px;
+            line-height: 10px;
+            font-size: 2em;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        #items {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="title-container">
+            <h1 id="header-title">My To-do List</h1>
+        </div>
+    </header>
+    <div class="inputBoxes">
+        <form id="addForm">
+            <input type="text" name="addToList" id="userInput" autofocus class="userInput"
+                placeholder="What task would you like to add to your to-do list?">
+
+            <input type="date" name="addToList" id="dateAndTime">
+            <input type="time" name="addToList" id="taskTime"
+                placeholder="Hi! What task would you like to add to your to-do list?">
+            <input type="submit" class="addButton" value="Add Item"></input>
+        </form>
+        <br>
+    </div>
+    <div class="container">
+        <div class="item">
+            <ul id="items">
+                <li>
+                    <input type="text" class="inputStyle" value="Sport" disabled>
+                    <button><i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                    <button><i class="fa fa-pencil-square-o fa-1.8x" aria-hidden="true"></i></button>
+                    <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </li>
+                
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="objectsPractice.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            width: 960px;
+            height: 100px;
+            margin: auto;
+
+        }
+
+        .titleBox {
+            display: inline block;
+            line-height: 100px;
+            text-align: center;
+            background-color: gray;
+            color: white;
+
+        }
+
+        .input-holder {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #userInput {
+            display: inline-block;
+            margin: 0 auto;
+            border: 2px solid black;
+            width: 60%;
+            height: 30px;
+            text-align: center;
+            background-color: lightgray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        input[type="submit"]{
+            box-sizing: border-box;
+            background-color: transparent;
+            border: 2px solid #e74c3c;
+            border-radius: 0.6em 0em;
+            color: #e74c3c;
+            cursor: pointer;
+            font-weight: bold;
+            line-height: 1;
+            margin: 10px;
+            padding: 1em 2.5em;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .submitButton:hover,
+        .submitButton:focus,
+        .submitButton:active {
+            color: black;
+            border-color: green;
+            background-color: lightgrey;
+            box-shadow: cadetblue;
+        }
+
+        #main-body {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: left;
+            margin-left: 70px;
+            margin-right: 110px;
+            font-family: Arial, "Helvetica", sans-serif,;
+            
+        }
+
+        .list-items {
+            margin-top: 10px;
+            width: 960px;
+            border-top: 5px solid grey;
+        }
+
+        .list-group-item {
+            width: 570px;
+            height: 30px;
+            padding-left: 10px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 3px outset black;
+            background-color: lightgrey;
+            font-weight: bold;
+            color: black;
+            font-size: 1em;
+            margin-left: 0px;
+        }
+        #buttons{
+            line-height: 25px;
+            float: right;
+            margin-right: 10px;
+            vertical-align: middle;
+            background-color: lightgrey;
+            border-bottom: 3px outset black;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="titleBox">
+                <h1 id="header-title">My To-do List</h1>
+            </div>
+        </div>
+    </header>
+    <div id="main-body" class="container">
+        <div id="inputHolder">
+            <form id = "form">
+                <input type="text" name="" id="userInput" placeholder="What would you like to add?">
+                <input type="submit" class="submitButton" value="Add Item"></input>
+            </form>
+        </div>
+
+        <div class="input-holder list-items">
+            <ul id="items" class="list-group"></ul>
+        </div>
+        <script src="objectsPractice.js"></script>
+        
+    </div>
+</body>
+
+</html>
